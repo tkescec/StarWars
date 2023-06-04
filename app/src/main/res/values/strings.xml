@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">StarWars</string>
+    <string name="exit">Exit</string>
+    <string name="really">Really exit app?</string>
+    <string name="cancel">Cancel</string>
+    <string name="characters">Characters</string>
+    <string name="about">About</string>
+    <string name="application_made_by">Application made by Tomislav Keščec</string>
+    <string name="loading">Loading...</string>
 </resources>

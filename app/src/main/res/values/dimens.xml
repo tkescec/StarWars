@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingAbout">20dp</dimen>
+    <dimen name="textSizeAbout">30sp</dimen>
+    <dimen name="navHeaderWidth">150dp</dimen>
+    <dimen name="navHeaderHeight">100dp</dimen>
+    <dimen name="navHeaderMarginTop">25dp</dimen>
+    <dimen name="navViewWidth">180dp</dimen>
+    <dimen name="splashIvHeight">400dp</dimen>
+    <dimen name="splashPaddingMain">50dp</dimen>
+    <dimen name="splashTextSize">50dp</dimen>
+</resources>
