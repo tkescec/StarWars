@@ -1,15 +1,9 @@
 package hr.codetome.starwars
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
-import android.view.animation.AnimationUtils
 import hr.codetome.starwars.databinding.ActivitySplashScreenBinding
 import hr.codetome.starwars.framework.*
-import java.util.Objects
-import javax.net.ssl.KeyStoreBuilderParameters
 
 private const val DELAY = 3000L
 const val DATA_IMPORTED = "hr.codetome.starwars.data_imported"
@@ -27,7 +21,7 @@ class SplashScreenActivity : AppCompatActivity() {
 
     private fun startAnimations() {
         binding.tvSplash.applyAnimation(R.anim.blink)
-        binding.ivSplash.applyAnimation(R.anim.rotate)
+        binding.ivSplash.applyAnimation(R.anim.scale)
     }
 
     private fun redirect() {

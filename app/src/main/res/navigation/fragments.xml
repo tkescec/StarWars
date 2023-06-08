@@ -2,18 +2,36 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@id/menuAbout"
+    app:startDestination="@id/menuCharacters"
     android:id="@+id/fragments">
 
-<!--    <fragment-->
-<!--        android:id="@+id/menuCharacters"-->
-<!--        android:name="hr.codetome.starwars.ItemsFragment"-->
-<!--        android:label="@string/characters"-->
-<!--        tools:layout="@layout/fragment_items"/>-->
+    <fragment
+        android:id="@+id/menuCharacters"
+        android:name="hr.codetome.starwars.ui.CharactersFragment"
+        android:label="@string/characters"
+        tools:layout="@layout/fragment_characters">
+        <action
+            android:id="@+id/action_charactersFragment_to_charactersDetailsFragment"
+            app:destination="@id/charactersDetailsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/charactersDetailsFragment"
+        android:name="hr.codetome.starwars.ui.CharactersDetailsFragment"
+        android:label="Character Details"
+        tools:layout="@layout/fragment_characters_details">
+        <argument
+            android:name="characterDetails"
+            app:argType="hr.codetome.starwars.model.Character" />
+    </fragment>
 
     <fragment
         android:id="@+id/menuAbout"
-        android:name="hr.codetome.starwars.AboutFragment"
+        android:name="hr.codetome.starwars.ui.AboutFragment"
         android:label="@string/about"
         tools:layout="@layout/fragment_about"/>
 

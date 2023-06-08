@@ -3,13 +3,6 @@
     android:startOffset="500"
     android:duration="750">
 
-    <rotate
-        android:fromDegrees="0"
-        android:toDegrees="359"
-        android:pivotX="50%"
-        android:pivotY="50%"
-        android:interpolator="@android:anim/linear_interpolator" />
-
     <scale
         android:fromXScale="0"
         android:toXScale="1"

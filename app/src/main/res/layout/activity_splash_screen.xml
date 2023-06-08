@@ -12,14 +12,14 @@
     <ImageView
         android:id="@+id/ivSplash"
         android:layout_width="wrap_content"
-        android:src="@drawable/star_wars_logo"
+        android:src="@drawable/ic_star_wars"
         android:layout_height="@dimen/splashIvHeight" />
 
     <TextView
         android:id="@+id/tvSplash"
         android:layout_width="wrap_content"
         android:textSize="@dimen/textSizeAbout"
-        android:textColor="@color/yellow"
+        android:textColor="@color/white"
         android:text="@string/loading"
         android:layout_gravity="center"
         android:layout_height="wrap_content" />

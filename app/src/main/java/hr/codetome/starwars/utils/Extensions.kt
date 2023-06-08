@@ -1,5 +1,6 @@
 package hr.codetome.starwars.framework
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.BroadcastReceiver
 import android.content.Context
